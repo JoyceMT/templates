@@ -1,0 +1,7 @@
+<p>However, the tour operator has suggested these alternative dates. If one of these dates works for you, simply click on the date to book</p>
+
+<ul style="list-style: none;">
+  #foreach( $availableTime in $availableTimeList )
+    <li>$availableTime.Name</li>
+  #end
+</ul>
